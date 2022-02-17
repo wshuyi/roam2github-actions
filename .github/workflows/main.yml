@@ -43,3 +43,6 @@ jobs:
         uses: everruler12/git-auto-commit-action@latest
         with:
           commit_message: Automatic backup
+          
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@master
