@@ -13,7 +13,7 @@ jobs:
   backup:
     runs-on: ubuntu-latest
     name: Backup
-    timeout-minutes: 20
+    timeout-minutes: 21
     steps:
       - uses: actions/checkout@v2
         with:
